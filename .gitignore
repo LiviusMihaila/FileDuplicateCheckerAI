@@ -1,0 +1,70 @@
+########################################
+# .NET & Visual Studio
+########################################
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## User-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## Rider
+.idea/
+
+########################################
+# Python & FastAPI
+########################################
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+########################################
+# Tika extracted content or temp data
+########################################
+*.tmp
+*.bak
+*.swp
+
+
+########################################
+# OS-generated files
+########################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+########################################
+# Test results (optional)
+########################################
+TestResults/
+*.trx
+*.coverage
+*.coveragejson
+
+# JetBrains
+.idea/
+*.iml

@@ -1,0 +1,9 @@
+@host = http://localhost:5094
+
+### Check for duplicate document vector
+POST {{host}}/api/duplicatecheck/check
+Content-Type: application/json
+
+{
+  "fileName": "test.pdf"
+}
