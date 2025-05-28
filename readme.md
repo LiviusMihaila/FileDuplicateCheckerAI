@@ -29,9 +29,17 @@
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Python 3.10+](https://www.python.org/)
 - Apache Tika: `tika-server-standard-3.1.0.jar`
-- Python packages:
+- Python Dependencies:
+
+  Install the minimal set of dependencies:
   ```bash
-  pip install fastapi uvicorn requests sentence-transformers python-multipart
+  pip install -r requirements.txt
+  ```
+  > ⏳ This step may take a few minutes, especially the first time, as it downloads large packages like `sentence-transformers` and `torch`.
+
+  Alternatively, for full reproducibility of the original environment:
+  ```bash
+  pip install -r requirements-full.txt
   ```
 
 ---
@@ -80,6 +88,8 @@ SmartDuplicateChecker/
 ├── SmartDuplicateChecker.Tests/         # xUnit test project
 ├── vectors.json                         # (runtime data)
 ├── README.md
+├── requirements.txt                 	 # Minimal dependency list
+├── requirements-full.txt            	 # Fully reproducible pip freeze
 └── SmartDuplicateChecker.sln
 ```
 
