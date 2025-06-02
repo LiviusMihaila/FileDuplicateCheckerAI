@@ -1,0 +1,12 @@
+[
+  {
+    "doc_id": "demo-001",
+    "content": "Sample technical document about product installation.",
+    "embedding": [ 0.123, 0.456, 0.789, 0.101, 0.112, 0.131 ]
+  },
+  {
+    "doc_id": "demo-002",
+    "content": "Another sample with different terminology and structure.",
+    "embedding": [ 0.221, 0.314, 0.415, 0.516, 0.617, 0.718 ]
+  }
+]
